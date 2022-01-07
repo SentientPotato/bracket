@@ -1,0 +1,19 @@
+Package: bracket
+Title: Tools to Setup, Manage, and Depict Tournament Brackets
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sentient",
+           family = "Potato",
+           role = c("aut", "cre"),
+           email = "sentient.potato138@gmail.com")
+Description: Single elimination tournaments are often conceptualized as a tree
+    structure called a "bracket". This package provides tools to set up a
+    single elimination tournament given a list of participants, update the
+    state of the tournament given the winners of previous matches, and depict
+    the current state of the tournament in a plot of the corresponding
+    tournament bracket.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
